@@ -1,0 +1,10 @@
+# Test and scratch files
+test_*.js
+verify_*.js
+patch_*.js
+ngao-bot-test.html
+.DS_Store
+*.log
+
+# Legacy drafts
+*V4*

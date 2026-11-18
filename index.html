@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Branding Mastery | Khóa học Offline Ngáo Content</title>
+  <meta name="description" content="Khóa học Offline thực chiến từ Ngáo Content | 12.12.2026 tại WORK X, 182 Điện Biên Phủ, TP.HCM cùng Trainer Ngọc Tâm & Nguyễn Hoà. Hiểu Nhân cho rõ, Xây Hiệu cho lâu.">
+  <meta name="theme-color" content="#C82061">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #C82061;
+      --primary-dark: #701A39;
+      --primary-light: #FFEBF2;
+      --primary-hover: #AB164F;
+      --gold: #D89824;
+      --gold-light: #FDECC8;
+      --bg: #FFF9FA;
+      --bg-alt: #FFF1F5;
+      --card-bg: #FFFFFF;
+      --text: #381525;
+      --text-muted: #7E5F6F;
+      --text-light: #9B7E8C;
+      --border: #F1D4DF;
+      --border-light: #FCE8EE;
+      --shadow-sm: 0 4px 12px rgba(112, 26, 57, 0.04);
+      --shadow-md: 0 10px 28px rgba(112, 26, 57, 0.08);
+      --shadow-lg: 0 18px 42px rgba(112, 26, 57, 0.12);
+      --radius-sm: 10px;
+      --radius-md: 18px;
+      --radius-lg: 24px;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', Georgia, serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      line-height: 1.58;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    button, input, select, textarea { font: inherit; }
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: 100%;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+      gap: 14px;
+    }
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+    }
+    .brand-logo-img {
+      height: 46px;
+      width: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(200, 32, 97, 0.16));
+      transition: transform 0.25s ease;
+    }
+    .brand-logo:hover .brand-logo-img {
+      transform: scale(1.05) rotate(-2deg);
+    }
+    .emblem {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 21px;
+      font-weight: 900;
+      border-radius: 11px;
+      box-shadow: 0 3px 12px rgba(200, 32, 97, 0.28);
+    }
+    .brand-info b {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 850;
+      letter-spacing: -0.2px;
+      color: var(--primary-dark);
+      line-height: 1.2;
+    }
+    .brand-info small {
+      display: block;
+      font-size: 10.5px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn-quiz {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, #FFF0F5 0%, #FFF9EC 100%);
+      color: #9A1144;
+      border: 2px solid #C82061;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 850;
+      letter-spacing: -0.1px;
+      box-shadow: 0 4px 14px rgba(200, 32, 97, 0.22);
+      animation: pulseStudentBtn 2.2s infinite ease-in-out;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+    .btn-quiz:hover {
+      background: linear-gradient(135deg, #FFE5EE 0%, #FFF3D6 100%);
+      border-color: #A00E40;
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 8px 24px rgba(200, 32, 97, 0.32);
+    }
+    .btn-quiz .badge-student {
+      font-size: 10.5px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #C82061, #8A0E38);
+      color: #fff;
+      padding: 3px 9px;
+      border-radius: 99px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      box-shadow: 0 2px 6px rgba(138, 14, 56, 0.3);
+    }
+    @keyframes pulseStudentBtn {
+      0% { box-shadow: 0 0 0 0 rgba(200, 32, 97, 0.4), 0 4px 14px rgba(200, 32, 97, 0.22); }
+      70% { box-shadow: 0 0 0 8px rgba(200, 32, 97, 0), 0 6px 18px rgba(200, 32, 97, 0.3); }
+      100% { box-shadow: 0 0 0 0 rgba(200, 32, 97, 0), 0 4px 14px rgba(200, 32, 97, 0.22); }
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      border: none;
+      border-radius: 99px;
+      font-size: 13.5px;
+      font-weight: 750;
+      cursor: pointer;
+      box-shadow: 0 4px 14px rgba(200, 32, 97, 0.25);
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(200, 32, 97, 0.35);
+    }
+
+    /* PART SELECTOR / SUBNAV BAR */
+    .part-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 68px;
+      z-index: 90;
+      box-shadow: 0 2px 8px rgba(112, 26, 57, 0.03);
+    }
+    .part-nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 8px 20px;
+    }
+    .part-nav-container::-webkit-scrollbar { display: none; }
+    
+    .part-tabs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      list-style: none;
+    }
+    .part-tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 8px 14px;
+      border-radius: 99px;
+      font-size: 12.5px;
+      font-weight: 750;
+      color: var(--text-muted);
+      border: 1.5px solid transparent;
+      background: transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .part-tab-btn:hover {
+      background: var(--bg-alt);
+      color: var(--primary-dark);
+    }
+    .part-tab-btn.active {
+      background: var(--primary-light);
+      border-color: #F6CAD8;
+      color: var(--primary);
+    }
+    .part-tab-btn .badge-num {
+      width: 19px;
+      height: 19px;
+      border-radius: 50%;
+      background: #F1D4DF;
+      color: var(--primary-dark);
+      display: grid;
+      place-items: center;
+      font-size: 10.5px;
+      font-weight: 800;
+    }
+    .part-tab-btn.active .badge-num {
+      background: var(--primary);
+      color: #fff;
+    }
+
+    .view-mode-toggle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--bg-alt);
+      padding: 5px 11px;
+      border-radius: 99px;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .view-mode-toggle:hover { color: var(--primary); }
+
+    /* MAIN CONTENT VIEWPORTS */
+    main { flex: 1; padding: 24px 0 50px; }
+
+    .part-section {
+      display: none;
+      animation: fadeIn 0.25s ease-out;
+      scroll-margin-top: 135px;
+    }
+    .part-section.active {
+      display: block;
+    }
+    body.mode-full-scroll .part-section {
+      display: block !important;
+      padding-bottom: 48px;
+      margin-bottom: 48px;
+      border-bottom: 1px dashed var(--border);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .part-card {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 36px 36px 32px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .sec-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 850;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 4px 11px;
+      border-radius: 99px;
+      margin-bottom: 10px;
+    }
+    .sec-title {
+      font-size: clamp(23px, 2.8vw, 34px);
+      font-weight: 900;
+      color: var(--primary-dark);
+      letter-spacing: -0.6px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+    .sec-desc {
+      font-size: 14.5px;
+      color: var(--text-muted);
+      line-height: 1.62;
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    /* PART 1: OVERVIEW HERO */
+    .overview-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .hero-h1 {
+      font-size: clamp(30px, 3.8vw, 46px);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -1px;
+      color: var(--primary-dark);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .hero-h1 em {
+      display: block;
+      color: var(--primary);
+      font-style: normal;
+    }
+    .hero-slogan {
+      font-family: var(--font-serif);
+      font-size: clamp(19px, 2.2vw, 26px);
+      font-style: italic;
+      color: var(--primary-dark);
+      margin-bottom: 16px;
+      display: inline-block;
+      position: relative;
+    }
+    .hero-slogan::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 100%;
+      height: 4px;
+      background: var(--primary);
+      border-radius: 2px;
+      opacity: 0.8;
+    }
+
+    .pain-box {
+      background: var(--bg-alt);
+      border-left: 3px solid var(--primary);
+      padding: 14px 18px;
+      border-radius: 0 12px 12px 0;
+      font-size: 13.5px;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+    .pain-box p { margin-bottom: 8px; }
+    .pain-box p:last-child { margin-bottom: 0; }
+
+    .hero-quote-highlight {
+      font-style: italic;
+      color: var(--primary-dark);
+      font-weight: 700;
+      font-size: 13.5px;
+      margin-bottom: 20px;
+      display: block;
+      padding: 8px 12px;
+      background: #FFF0F5;
+      border-radius: 8px;
+    }
+
+    /* STATS BADGES */
+    .quick-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+    .stat-pill {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 9px 8px;
+      text-align: center;
+    }
+    .stat-pill strong {
+      display: block;
+      font-size: 13.5px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      line-height: 1.1;
+    }
+    .stat-pill small {
+      display: block;
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 650;
+      margin-top: 3px;
+    }
+
+    /* COUNTDOWN */
+    .countdown-bar {
+      background: linear-gradient(180deg, #FFFFFF, var(--bg-alt));
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .cd-title {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--primary-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      min-width: 90px;
+    }
+    .cd-items {
+      display: flex;
+      gap: 8px;
+      flex: 1;
+    }
+    .cd-box {
+      flex: 1;
+      text-align: center;
+      background: #fff;
+      border: 1px solid #F8D1E0;
+      border-radius: 8px;
+      padding: 5px 2px;
+    }
+    .cd-box b {
+      display: block;
+      font-size: 17px;
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+    }
+    .cd-box span {
+      display: block;
+      font-size: 9.5px;
+      color: var(--text-muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    /* POSTER CARD RIGHT */
+    .poster-wrap {
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      background: #FFF1F5;
+      position: relative;
+    }
+    .poster-wrap img {
+      width: 100%;
+      aspect-ratio: 825 / 1024;
+      object-fit: cover;
+    }
+
+    /* PART 2: INTERACTIVE 3-PILLAR TABS */
+    .pillar-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .pillar-tab-card {
+      background: var(--bg-alt);
+      border: 2px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 14px;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+    }
+    .pillar-tab-card:hover {
+      border-color: #E2A6BD;
+      background: #FFF4F8;
+    }
+    .pillar-tab-card.active {
+      background: #fff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 16px rgba(200, 32, 97, 0.12);
+    }
+    .pillar-tab-badge {
+      display: inline-block;
+      font-size: 10.5px;
+      font-weight: 850;
+      color: var(--primary);
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .pillar-tab-card h4 {
+      font-size: 16px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      letter-spacing: -0.2px;
+    }
+    .pillar-tab-card small {
+      display: block;
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .pillar-detail-box {
+      background: var(--bg-alt);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 26px 28px;
+    }
+    .p-detail-content { display: none; }
+    .p-detail-content.active { display: block; animation: fadeIn 0.2s ease; }
+    .p-detail-content h3 {
+      font-size: 19px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      margin-bottom: 10px;
+    }
+    .p-detail-content p {
+      font-size: 13.5px;
+      color: var(--text);
+      line-height: 1.62;
+      margin-bottom: 16px;
+    }
+    .p-list {
+      list-style: none;
+      display: grid;
+      gap: 10px;
+    }
+    .p-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .p-list li span {
+      color: var(--primary);
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+
+    /* PART 3: PACKAGES & BEYOND 1-DAY VALUE */
+    .benefit-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 20px;
+    }
+    .benefit-card {
+      background: var(--bg-alt);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: all 0.2s ease;
+    }
+    .benefit-card:hover {
+      background: #fff;
+      border-color: var(--primary);
+      box-shadow: var(--shadow-sm);
+    }
+    .benefit-icon {
+      width: 44px;
+      height: 44px;
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .benefit-card h4 {
+      font-size: 15px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+    .benefit-card p {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    .ai-highlight-card {
+      grid-column: span 2;
+      background: linear-gradient(135deg, #701A39, #450B20);
+      color: #fff;
+      border-radius: 16px;
+      padding: 24px 28px;
+      border: 1.5px solid #A01548;
+      box-shadow: 0 8px 24px rgba(112, 26, 57, 0.2);
+    }
+    .ai-highlight-card h4 {
+      color: #FFD43B;
+      font-size: 17px;
+      font-weight: 850;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .ai-highlight-card p {
+      color: #F8D8E5;
+      font-size: 13.5px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .ai-highlight-quote {
+      font-family: var(--font-serif);
+      font-style: italic;
+      color: #FFF;
+      font-size: 13.5px;
+      border-left: 3px solid #FFD43B;
+      padding-left: 12px;
+    }
+
+    /* PART 4: TRAINERS */
+    .trainers-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .trainer-box {
+      background: var(--bg-alt);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 20px;
+      align-items: center;
+      transition: all 0.2s ease;
+    }
+    .trainer-box:hover {
+      background: #fff;
+      border-color: var(--primary);
+      box-shadow: var(--shadow-md);
+    }
+    .t-avatar {
+      width: 105px;
+      height: 105px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 14px rgba(112, 26, 57, 0.12);
+      background: #fff;
+      flex-shrink: 0;
+    }
+    .t-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .trainer-box h3 {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+    .t-role {
+      font-size: 12px;
+      font-weight: 750;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .t-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+    .t-quote {
+      margin-top: 10px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 12px;
+      color: var(--primary-dark);
+    }
+
+    /* PART 5: LOGISTICS & PRICING */
+    .logistics-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .log-card {
+      background: var(--bg-alt);
+      border: 1.5px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 18px;
+    }
+    .log-card .icon {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .log-card span {
+      display: block;
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin-bottom: 2px;
+    }
+    .log-card strong {
+      display: block;
+      font-size: 15px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+    .log-card p {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    .pricing-banner {
+      background: linear-gradient(135deg, #FFF0F5 0%, #FFF8E7 100%);
+      border: 2px solid #C82061;
+      border-radius: 16px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 16px rgba(200, 32, 97, 0.12);
+    }
+    .price-val {
+      font-size: clamp(24px, 3vw, 34px);
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+    }
+    .price-note {
+      font-size: 12px;
+      color: #8E204E;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    .audience-tag-wrap {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .audience-tag-wrap strong {
+      display: block;
+      font-size: 13px;
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+    .audience-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .aud-tag {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 650;
+      color: var(--text);
+    }
+
+    /* PART 6: REGISTRATION & QR */
+    .register-single-wrap {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    .qr-box-wrap {
+      background: var(--bg-alt);
+      border: 1.5px solid #F1CAD8;
+      border-radius: var(--radius-lg);
+      padding: 34px 28px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-sm);
+    }
+    .qr-img {
+      width: 175px;
+      height: 175px;
+      background: #ffffff;
+      border: 2px solid var(--primary);
+      border-radius: 16px;
+      padding: 10px;
+      margin: 0 auto 12px;
+      box-shadow: 0 4px 16px rgba(200, 32, 97, 0.16);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    .qr-img a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .qr-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      border-radius: 6px;
+    }
+    .qr-box-wrap h4 {
+      font-size: 15px;
+      font-weight: 850;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+    .qr-box-wrap p {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      line-height: 1.45;
+      max-width: 240px;
+    }
+
+    /* STEP NAVIGATION FOOTER INSIDE EACH PART */
+    .part-nav-footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-light);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .btn-step-prev {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 9px 18px;
+      background: var(--bg-alt);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 750;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-step-prev:hover {
+      background: #fff;
+      color: var(--primary-dark);
+    }
+    .btn-step-next {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 22px;
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 3px 12px rgba(200, 32, 97, 0.25);
+      transition: all 0.2s ease;
+    }
+    .btn-step-next:hover {
+      background: var(--primary-hover);
+      transform: translateX(2px);
+    }
+
+    /* INTEGRATED BANNER TO BRAND DISCOVERY */
+    .mini-tool-banner {
+      background: linear-gradient(135deg, #701A39, #991648);
+      color: #fff;
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 22px;
+    }
+    .mini-tool-btn {
+      padding: 7px 14px;
+      background: #fff;
+      color: var(--primary-dark);
+      border-radius: 99px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+    .mini-tool-btn:hover { background: var(--gold-light); }
+
+    /* FOOTER */
+    footer {
+      background: #fff;
+      border-top: 1px solid var(--border);
+      padding: 36px 0 24px;
+      margin-top: auto;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    /* MODAL */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(40, 10, 24, 0.65);
+      backdrop-filter: blur(5px);
+      z-index: 999;
+      place-items: center;
+      padding: 20px;
+    }
+    .modal-overlay.active { display: grid; }
+    .modal-card {
+      background: #fff;
+      border-radius: var(--radius-md);
+      padding: 32px 28px;
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow-lg);
+      border: 1.5px solid var(--border);
+    }
+    .modal-card h3 {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+    .modal-card p {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 20px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .overview-grid { grid-template-columns: 1fr; gap: 24px; }
+      .trainers-row { grid-template-columns: 1fr; }
+      .benefit-grid { grid-template-columns: 1fr; }
+      .ai-highlight-card { grid-column: span 1; }
+      .pricing-banner { flex-direction: column; text-align: center; }
+      .register-grid { grid-template-columns: 1fr; }
+      .logistics-grid { grid-template-columns: 1fr; }
+      .pillar-tabs { grid-template-columns: 1fr; }
+      .part-card { padding: 24px 20px; }
+      .quick-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 768px) {
+      .nav-wrap { flex-wrap: wrap; gap: 8px; }
+      .nav-actions { gap: 6px; }
+      .btn-quiz { padding: 6px 11px; font-size: 11.5px; }
+      .btn-quiz .btn-quiz-full-text { display: none !important; }
+      .btn-quiz .btn-quiz-short-text { display: inline !important; }
+      .btn-quiz .badge-student { display: none; }
+      .btn-ebook-nav { padding: 6px 11px; font-size: 11.5px; }
+    }
+  </style>
+  <link rel="stylesheet" href="ebook-style.css?v=20261118_v2">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand-logo" aria-label="Trang chủ Ngáo Content">
+        <img src="assets/logo_ngao_content.png" alt="Ngáo Content Logo" class="brand-logo-img">
+        <div class="brand-info">
+          <b>NGÁO CONTENT</b>
+          <small>Personal Branding Mastery</small>
+        </div>
+      </a>
+
+      <div class="nav-actions">
+        <a href="brand-discovery.html" class="btn-quiz" title="Khu vực dành riêng cho học viên: Khảo sát định vị thương hiệu 15 câu & nhận Brand Guideline 24 slide">
+          <span style="font-size:15px">🎓</span>
+          <span class="btn-quiz-full-text">Dành cho học viên · Khảo sát 15 câu</span>
+          <span class="btn-quiz-short-text" style="display:none">Khảo sát 15 câu</span>
+          <span class="badge-student">BẢN HỌC VIÊN</span>
+        </a>
+        <button type="button" class="btn-ebook-nav" onclick="goToPart('ebook')" title="Ebook thực chiến Claude làm Web & Video — Chỉ dành cho học viên có mã PASS">
+          <span>📘</span>
+          <span>Ebook Thực Chiến</span>
+          <span class="vip-pill">🔒 HỌC VIÊN</span>
+        </button>
+        <button type="button" class="btn-primary" onclick="goToPart('register')">Đăng ký ngay</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUBNAV / PART SELECTOR BAR -->
+  <nav class="part-nav-bar" aria-label="Điều hướng các phần của khoá học">
+    <div class="container part-nav-container">
+      <ul class="part-tabs" role="tablist">
+        <li>
+          <button class="part-tab-btn active" id="tabBtn-overview" role="tab" aria-selected="true" onclick="goToPart('overview')">
+            <span class="badge-num">1</span>
+            <span>Tổng quan</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn" id="tabBtn-curriculum" role="tab" aria-selected="false" onclick="goToPart('curriculum')">
+            <span class="badge-num">2</span>
+            <span>3 Trục tư duy</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn" id="tabBtn-benefits" role="tab" aria-selected="false" onclick="goToPart('benefits')">
+            <span class="badge-num">3</span>
+            <span>Quyền lợi & AI</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn" id="tabBtn-trainers" role="tab" aria-selected="false" onclick="goToPart('trainers')">
+            <span class="badge-num">4</span>
+            <span>Giảng viên</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn" id="tabBtn-logistics" role="tab" aria-selected="false" onclick="goToPart('logistics')">
+            <span class="badge-num">5</span>
+            <span>Địa điểm & Học phí</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn" id="tabBtn-register" role="tab" aria-selected="false" onclick="goToPart('register')">
+            <span class="badge-num">6</span>
+            <span>Đăng ký & QR</span>
+          </button>
+        </li>
+        <li>
+          <button class="part-tab-btn ebook-special-tab" id="tabBtn-ebook" role="tab" aria-selected="false" onclick="goToPart('ebook')">
+            <span class="badge-num">🔒</span>
+            <span>Ebook Học Viên</span>
+          </button>
+        </li>
+      </ul>
+
+      <button type="button" class="view-mode-toggle" id="viewModeToggle" onclick="toggleViewMode()" title="Chuyển chế độ xem từng phần hoặc cuộn toàn trang">
+        <span id="viewModeIcon">👁️</span>
+        <span id="viewModeText">Xem từng phần</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MAIN VIEWPORTS -->
+  <main class="container">
+
+    <!-- PHẦN 1: TỔNG QUAN -->
+    <section class="part-section active" id="part-overview" role="tabpanel" aria-labelledby="tabBtn-overview">
+      <div class="part-card">
+        <div class="overview-grid">
+          <div>
+            <span class="sec-badge">Khóa học Offline thực chiến từ Ngáo Content | 12.12.2026</span>
+            <h1 class="hero-h1">
+              PERSONAL BRANDING
+              <em>MASTERY</em>
+            </h1>
+            <div class="hero-slogan">HIỂU NHÂN CHO RÕ, XÂY HIỆU CHO LÂU.</div>
+            
+            <div class="pain-box">
+              <p>Có người làm nghề nhiều năm, kinh nghiệm và chuyên môn không thiếu, nhưng khi xây thương hiệu cá nhân lại chẳng biết nên kể về mình từ đâu.</p>
+              <p>Có người xây kênh rất chăm chỉ, đăng bài đều đặn, dùng thêm cả AI để sản xuất nội dung nhanh hơn. Nhưng càng làm, kênh càng nhiều thứ để xem mà vẫn thiếu một lý do đủ rõ để người khác ghi nhớ.</p>
+              <p style="font-weight:700;color:var(--primary-dark)">Bởi có nhiều điều để chia sẻ không đồng nghĩa với việc đã có một thương hiệu cá nhân rõ ràng.</p>
+            </div>
+
+            <p style="font-size:13.5px;color:var(--text-muted);line-height:1.6;margin-bottom:14px">
+              Điều khó đôi khi không phải là tìm thêm ý tưởng nội dung, mà là biết mình nên tập trung vào điều gì, muốn được nhớ đến vì điều gì và làm sao để những gì mình chia sẻ dần trở thành lý do khiến người khác tin tưởng, tìm đến.
+            </p>
+
+            <div class="hero-quote-highlight">
+              “Nếu đã dành nhiều thời gian xây kênh nhưng vẫn chưa rõ mình đang xây dựng điều gì, đây là lúc đáng để đầu tư vào một chiến lược thay vì tiếp tục thử mọi thứ theo cảm tính.”
+            </div>
+
+            <div class="quick-stats">
+              <div class="stat-pill">
+                <strong>12/12/2026</strong>
+                <small>08:30 - 17:30</small>
+              </div>
+              <div class="stat-pill">
+                <strong>WORK X</strong>
+                <small>182 Điện Biên Phủ</small>
+              </div>
+              <div class="stat-pill">
+                <strong>2.393.000đ</strong>
+                <small>Học phí trọn gói</small>
+              </div>
+              <div class="stat-pill">
+                <strong>Claude Pro</strong>
+                <small>Vibe Coding thực chiến</small>
+              </div>
+            </div>
+
+            <div class="countdown-bar">
+              <div class="cd-title">Đếm ngược khai giảng</div>
+              <div class="cd-items">
+                <div class="cd-box"><b id="cdDays">00</b><span>Ngày</span></div>
+                <div class="cd-box"><b id="cdHours">00</b><span>Giờ</span></div>
+                <div class="cd-box"><b id="cdMins">00</b><span>Phút</span></div>
+                <div class="cd-box"><b id="cdSecs">00</b><span>Giây</span></div>
+              </div>
+            </div>
+
+            <div class="mini-tool-banner" style="background:linear-gradient(135deg, #701A39 0%, #A01548 100%);border:2px solid #F5C6D8;box-shadow:0 8px 24px rgba(112, 26, 57, 0.2)">
+              <div style="display:flex;align-items:center;gap:12px">
+                <div style="width:38px;height:38px;background:#fff;border-radius:10px;display:grid;place-items:center;font-size:20px;flex-shrink:0">✍️</div>
+                <div>
+                  <strong style="font-size:14px;color:#fff">ĐIỀN FORM ĐĂNG KÝ · Giữ chỗ khoá học 12/12/2026</strong>
+                  <small style="color:#FFE0EC;font-size:12px">Học phí: 2.393.000đ · Workshop Offline tại WORK X (182 Điện Biên Phủ, TP.HCM)</small>
+                </div>
+              </div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSepAfBro_dd6fLU0Hj6dQpfPBSq8BkOecbS5xvoiyPW0TqbSw/viewform" target="_blank" rel="noopener noreferrer" class="mini-tool-btn" style="background:#FFDE59;color:#540B27;font-weight:900;padding:9px 18px;border:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px">
+                <span>Điền form đăng ký</span>
+                <span>→</span>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div class="poster-wrap">
+              <img src="assets/poster.jpg?v=2" alt="Poster Khoá học Personal Branding Mastery" width="825" height="1024">
+            </div>
+            <div style="margin-top:10px;background:#FFF1F5;border:1.5px solid #F1D4DF;border-radius:14px;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:8px;box-shadow:0 2px 8px rgba(112,26,57,0.06)">
+              <div style="display:flex;align-items:center;gap:8px">
+                <span style="font-size:16px">📍</span>
+                <div>
+                  <strong style="font-size:12.5px;color:var(--primary-dark);display:block;line-height:1.2">WORK X · 182 Điện Biên Phủ, TP.HCM</strong>
+                  <small style="color:var(--text-muted);font-size:11px">Địa điểm tổ chức chính thức</small>
+                </div>
+              </div>
+              <span style="background:var(--primary);color:#fff;padding:4px 10px;border-radius:99px;font-weight:850;font-size:11.5px">2.393.000đ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="part-nav-footer">
+          <span style="font-size:12px;color:var(--text-muted)">Phần 1 / 6 · Tổng quan</span>
+          <button type="button" class="btn-step-next" onclick="goToPart('curriculum')">
+            <span>Xem Phần 2: 3 Trục tư duy</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 2: 3 TRỤC TƯ DUY -->
+    <section class="part-section" id="part-curriculum" role="tabpanel" aria-labelledby="tabBtn-curriculum">
+      <div class="part-card">
+        <span class="sec-badge">Phương pháp cốt lõi</span>
+        <h2 class="sec-title">Ba Trục Tư Duy: Hiểu Nhân – Định Vị – Xây Hiệu</h2>
+        <p class="sec-desc">
+          Đó là lý do Ngáo Content xây dựng PERSONAL BRANDING MASTERY với ba trục tư duy nền tảng:
+        </p>
+
+        <!-- 3 Interactive Tabs -->
+        <div class="pillar-tabs">
+          <div class="pillar-tab-card active" id="pTab-1" onclick="switchPillar(1)">
+            <span class="pillar-tab-badge">Trục 01 · Gốc rễ</span>
+            <h4>✦ HIỂU NHÂN</h4>
+            <small>Năng lực, giá trị & đối tượng giúp ích</small>
+          </div>
+          <div class="pillar-tab-card" id="pTab-2" onclick="switchPillar(2)">
+            <span class="pillar-tab-badge">Trục 02 · Chiến lược</span>
+            <h4>✦ ĐỊNH VỊ</h4>
+            <small>Lợi thế khác biệt & lý do chọn bạn</small>
+          </div>
+          <div class="pillar-tab-card" id="pTab-3" onclick="switchPillar(3)">
+            <span class="pillar-tab-badge">Trục 03 · Hệ thống & AI</span>
+            <h4>✦ XÂY HIỆU</h4>
+            <small>Phát triển kênh & Vibe Coding với Claude</small>
+          </div>
+        </div>
+
+        <!-- Pillar Details Container -->
+        <div class="pillar-detail-box">
+          <div class="p-detail-content active" id="pContent-1">
+            <h3>✦ HIỂU NHÂN: Hiểu rõ năng lực, trải nghiệm, giá trị riêng và những người mình thực sự có thể giúp ích</h3>
+            <p>Xây dựng thương hiệu cá nhân không bắt đầu từ việc cố bắt chước ai đó, mà bắt đầu từ việc bóc tách chính con người thật của bạn.</p>
+            <ul class="p-list">
+              <li><span>✦</span> Khám phá hệ giá trị, tính cách tự nhiên & lợi thế bất công (Unfair Advantage).</li>
+              <li><span>✦</span> Trả lời câu hỏi: Mình thực sự có thể giúp ích cho ai, giải quyết nỗi đau cụ thể nào?</li>
+              <li><span>✦</span> Thực hành bài khảo sát Brand Discovery 15 câu đo lường hệ giá trị và phong cách nhận diện.</li>
+              <li><span>✦</span> Bóc tách câu chuyện nguồn gốc (Origin Story) chân thật, tạo dựng sự tin tưởng tự nhiên.</li>
+            </ul>
+          </div>
+
+          <div class="p-detail-content" id="pContent-2">
+            <h3>✦ ĐỊNH VỊ: Xác định điều mình muốn được nhớ đến, lợi thế khác biệt và lý do để đúng người lựa chọn mình</h3>
+            <p>Trở thành cái tên rõ ràng, sắc nét trong tâm trí khách hàng mục tiêu thay vì trở thành một kênh có nhiều thứ để xem nhưng không ai nhớ đến.</p>
+            <ul class="p-list">
+              <li><span>✦</span> Xác định điều bạn muốn được nhớ đến đầu tiên khi nhắc đến lĩnh vực chuyên môn.</li>
+              <li><span>✦</span> Tìm ra lý do đủ rõ để ĐÚNG người lựa chọn bạn thay vì hàng trăm người khác ngoài kia.</li>
+              <li><span>✦</span> Thiết lập Tone of Voice, phong cách ngôn từ và bộ nhận diện thông điệp nhất quán.</li>
+              <li><span>✦</span> Xây dựng ma trận Content Pillars đa kênh, đảm bảo nội dung phục vụ đúng chiến lược chuyển đổi.</li>
+            </ul>
+          </div>
+
+          <div class="p-detail-content" id="pContent-3">
+            <h3>✦ XÂY HIỆU: Chuyển định vị thành chiến lược phát triển kênh và nội dung có hệ thống (Ứng dụng AI & Claude)</h3>
+            <p>Đặc biệt, thực hành ứng dụng AI và Claude để hỗ trợ sáng tạo, thiết kế, xây dựng website và các công cụ số phục vụ thương hiệu cá nhân.</p>
+            <ul class="p-list">
+              <li><span>✦</span> <strong>Hệ thống nội dung đa kênh:</strong> Biến định vị thành các chuỗi video ngắn và bài viết có tính chuyển đổi cao.</li>
+              <li><span>✦</span> <strong>Thực hành ứng dụng AI & Claude:</strong> Cùng trainer Nguyễn Hoà tiếp cận cách dùng Claude và AI để nghiên cứu, thiết kế hình ảnh, phát triển website, thử nghiệm vibe coding.</li>
+              <li><span>✦</span> <strong>Tư duy làm chủ công nghệ:</strong> “Điều quan trọng không phải là AI có thể làm được bao nhiêu thứ, mà là bạn có đủ tư duy để biết nên dùng nó làm gì cho thương hiệu của mình.”</li>
+              <li><span>✦</span> <strong>Tự tay xây dựng công cụ số:</strong> Tự tạo các trang web, landing page và mini tools mang đậm dấu ấn cá nhân.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="part-nav-footer">
+          <button type="button" class="btn-step-prev" onclick="goToPart('overview')">← Phần 1: Tổng quan</button>
+          <button type="button" class="btn-step-next" onclick="goToPart('benefits')">
+            <span>Xem Phần 3: Quyền lợi & AI</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 3: QUYỀN LỢI & AI MANG VỀ -->
+    <section class="part-section" id="part-benefits" role="tabpanel" aria-labelledby="tabBtn-benefits">
+      <div class="part-card">
+        <span class="sec-badge">Đồng hành thực chiến</span>
+        <h2 class="sec-title">Không Chỉ Học 1 Ngày, Mà Còn Có Người Đồng Hành Khi Bắt Tay Vào Làm</h2>
+        <p class="sec-desc">
+          Tham gia Personal Branding Mastery, bạn nhận được trọn gói hỗ trợ sâu sát để không bị rơi vào cảnh "học xong rồi tự loay hoay":
+        </p>
+
+        <div class="benefit-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">🎓</div>
+            <div>
+              <h4>01 Ngày Offline Thực Chiến</h4>
+              <p>Học trực tiếp cùng Ngọc Tâm và Nguyễn Hoà, kết hợp hoàn hảo giữa tư duy chiến lược, thực hành và ứng dụng AI.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">📅</div>
+            <div>
+              <h4>14 Ngày Đồng Hành Xây Kênh</h4>
+              <p>Tiếp tục triển khai thực tế sau lớp, có đội ngũ mentor đồng hành giải đáp, chỉnh sửa từng bước đi.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">🎬</div>
+            <div>
+              <h4>02 Video Record Content Marketing</h4>
+              <p>Tài liệu bổ trợ kỹ năng sáng tạo nội dung chuyên sâu giúp bạn xem lại và tra cứu bất kỳ lúc nào.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">💻</div>
+            <div>
+              <h4>01 Buổi Zoom 2 Tiếng Sửa Bài Tập</h4>
+              <p>Buổi Zoom chuyên sâu khám kênh, sửa bài tập thực tế và tháo gỡ trực tiếp những vướng mắc khi triển khai.</p>
+            </div>
+          </div>
+
+          <!-- AI & VIBE CODING HIGHLIGHT -->
+          <div class="ai-highlight-card">
+            <h4>🤖 Hệ Thống AI Mang Về (Thực hành cùng Trainer Nguyễn Hoà)</h4>
+            <p>
+              Trong phần thực hành buổi chiều, học viên được tiếp cận cách sử dụng Claude và AI để nghiên cứu, thiết kế hình ảnh, phát triển website, thử nghiệm <strong>vibe coding</strong> và xây dựng những công cụ hỗ trợ công việc thực tế.
+            </p>
+            <div class="ai-highlight-quote">
+              “Điều quan trọng không phải là AI có thể làm được bao nhiêu thứ, mà là bạn có đủ tư duy để biết nên dùng nó làm gì cho thương hiệu của mình.”
+            </div>
+          </div>
+        </div>
+
+        <div class="part-nav-footer">
+          <button type="button" class="btn-step-prev" onclick="goToPart('curriculum')">← Phần 2: 3 Trục tư duy</button>
+          <button type="button" class="btn-step-next" onclick="goToPart('trainers')">
+            <span>Xem Phần 4: Giảng viên</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 4: GIẢNG VIÊN -->
+    <section class="part-section" id="part-trainers" role="tabpanel" aria-labelledby="tabBtn-trainers">
+      <div class="part-card">
+        <span class="sec-badge">Đội ngũ chuyên gia</span>
+        <h2 class="sec-title">Gặp Gỡ 2 Giảng Viên Đồng Hành</h2>
+        <p class="sec-desc">
+          Hai góc nhìn bổ trợ toàn diện: Chiến lược thương hiệu bền vững và Kỹ năng làm phim, sáng tạo visual & Vibe Coding bằng AI.
+        </p>
+
+        <div class="trainers-row">
+          <!-- Ngọc Tâm -->
+          <div class="trainer-box">
+            <div class="t-avatar">
+              <img src="assets/trainer_ngoc_tam.png" alt="Trainer Ngọc Tâm - Founder Ngáo Content">
+            </div>
+            <div>
+              <div class="t-role">Trainer</div>
+              <h3>Ngọc Tâm</h3>
+              <p style="font-size:12px;font-weight:800;color:var(--primary-dark);margin-bottom:6px">Founder Ngáo Content & Personal Branding Strategist</p>
+              <p class="t-desc">
+                12+ năm kinh nghiệm hoạt động trong lĩnh vực triển khai và vận hành Marketing cho cá nhân và doanh nghiệp để hệ thống hoá truyền thông và sáng tạo bền vững. Đã đồng hành cùng hàng ngàn học viên bóc tách bản sắc độc bản và xây dựng cộng đồng uy tín.
+              </p>
+              <div class="t-quote">
+                “Thương hiệu cá nhân không phải là vẽ ra một vỏ bọc lung linh, mà là can đảm sống đúng với chất người của mình và lan toả nó một cách kiên định.”
+              </div>
+            </div>
+          </div>
+
+          <!-- Nguyễn Hoà -->
+          <div class="trainer-box">
+            <div class="t-avatar">
+              <img src="assets/trainer_nguyen_hoa.png" alt="Trainer Nguyễn Hoà - Founder Edit Không Khó">
+            </div>
+            <div>
+              <div class="t-role">Trainer</div>
+              <h3>Nguyễn Hoà</h3>
+              <p style="font-size:12px;font-weight:800;color:var(--primary-dark);margin-bottom:6px">Founder Edit Không Khó | Editor, Filmmaker, Trainer & Vibe Coder</p>
+              <p class="t-desc">
+                Là người sáng lập Edit Không Khó và phát triển EKK Tools, Nguyễn Hoà tập trung vào lĩnh vực dựng phim, Motion Graphics và ứng dụng AI trong sáng tạo nội dung. Với tư duy kết hợp giữa kỹ thuật, thẩm mỹ và công nghệ, Hoà không chỉ chia sẻ kiến thức thực chiến mà còn phát triển các công cụ giúp tối ưu quy trình làm việc. Anh hướng đến việc giúp người học làm chủ kỹ năng, khai thác sức mạnh AI và tự tin biến ý tưởng sáng tạo thành sản phẩm thực tế.
+              </p>
+              <div class="t-quote">
+                “Kết hợp giữa kỹ thuật, thẩm mỹ và công nghệ để giúp người học làm chủ kỹ năng, khai thác sức mạnh AI và tự tin biến ý tưởng sáng tạo thành sản phẩm thực tế.”
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="part-nav-footer">
+          <button type="button" class="btn-step-prev" onclick="goToPart('benefits')">← Phần 3: Quyền lợi & AI</button>
+          <button type="button" class="btn-step-next" onclick="goToPart('logistics')">
+            <span>Xem Phần 5: Địa điểm & Học phí</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 5: ĐỊA ĐIỂM & HỌC PHÍ -->
+    <section class="part-section" id="part-logistics" role="tabpanel" aria-labelledby="tabBtn-logistics">
+      <div class="part-card">
+        <span class="sec-badge">Thông tin tổ chức</span>
+        <h2 class="sec-title">Thời Gian, Địa Điểm & Học Phí Chính Thức</h2>
+        <p class="sec-desc">
+          Personal Branding Mastery được tổ chức dưới hình thức Workshop Offline chuyên sâu tại không gian làm việc sáng tạo WORK X.
+        </p>
+
+        <!-- PRICING BANNER -->
+        <div class="pricing-banner">
+          <div>
+            <span style="font-size:11px;font-weight:850;color:var(--primary);text-transform:uppercase;letter-spacing:0.5px">HỌC PHÍ CHÍNH THỨC</span>
+            <div class="price-val">2.393.000đ <small style="font-size:14px;color:var(--text-muted);font-weight:600">/ học viên</small></div>
+            <div class="price-note">Trọn gói 01 ngày Offline + 14 ngày đồng hành + 02 Video record + 01 Zoom sửa bài + Hệ thống AI mang về.</div>
+          </div>
+          <button type="button" class="btn-primary" onclick="goToPart('register')" style="padding:13px 26px;font-size:14.5px">Đăng ký giữ chỗ ngay</button>
+        </div>
+
+        <div class="logistics-grid">
+          <div class="log-card">
+            <div class="icon">📅</div>
+            <span>Thời gian học</span>
+            <strong>Thứ Bảy · 12/12/2026</strong>
+            <p>Trọn vẹn 1 ngày: 08:30 - 17:30 tập trung cao độ.</p>
+          </div>
+          <div class="log-card">
+            <div class="icon">📍</div>
+            <span>Địa điểm học trực tiếp</span>
+            <strong>WORK X</strong>
+            <p>182 Điện Biên Phủ, Phường Xuân Hòa, TP. Hồ Chí Minh.</p>
+          </div>
+          <div class="log-card">
+            <div class="icon">💻</div>
+            <span>Yêu cầu học viên</span>
+            <strong>Laptop & Claude Pro</strong>
+            <p>*Cần học viên mang theo laptop và đầu tư Claude Pro để thực hành trực tiếp.</p>
+          </div>
+        </div>
+
+        <!-- TARGET AUDIENCE -->
+        <div class="audience-tag-wrap">
+          <strong>Khóa học phù hợp với:</strong>
+          <div class="audience-tags">
+            <span class="aud-tag">✨ Content Creator</span>
+            <span class="aud-tag">💼 Chuyên gia / Giảng viên</span>
+            <span class="aud-tag">💻 Freelancer</span>
+            <span class="aud-tag">📈 Người làm Marketing</span>
+            <span class="aud-tag">🛍️ Chủ shop kinh doanh</span>
+            <span class="aud-tag">🚀 Founder / Chủ doanh nghiệp</span>
+          </div>
+          <small style="display:block;margin-top:8px;color:var(--text-muted);font-size:12px">
+            Dành cho những ai muốn xây dựng thương hiệu cá nhân từ năng lực thực tế, có định vị rõ ràng và chiến lược phát triển lâu dài.
+          </small>
+        </div>
+
+        <div class="part-nav-footer">
+          <button type="button" class="btn-step-prev" onclick="goToPart('trainers')">← Phần 4: Giảng viên</button>
+          <button type="button" class="btn-step-next" onclick="goToPart('register')">
+            <span>Xem Phần 6: Đăng ký & QR</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 6: ĐĂNG KÝ & QUÉT QR -->
+    <section class="part-section" id="part-register" role="tabpanel" aria-labelledby="tabBtn-register">
+      <div class="part-card">
+        <div style="text-align:center;max-width:680px;margin:0 auto 28px">
+          <span class="sec-badge">Ghi danh giữ chỗ</span>
+          <h2 class="sec-title" style="margin-bottom:8px">Đăng Ký Tham Gia Khoá Học Offline 12/12/2026</h2>
+          <p class="sec-desc" style="margin:0 auto">
+            Quét mã QR bằng điện thoại hoặc bấm nút mở trực tiếp Google Form để hoàn tất đăng ký giữ chỗ. Học phí: <strong>2.393.000đ/học viên</strong>.
+          </p>
+        </div>
+
+        <div class="register-single-wrap">
+          <div class="qr-box-wrap">
+            <span style="font-size:12px;font-weight:850;color:var(--primary);background:#fff;padding:6px 18px;border-radius:99px;border:1.5px solid var(--border);margin-bottom:18px;letter-spacing:0.3px;box-shadow:0 2px 8px rgba(200,32,97,0.08)">
+              QUÉT QR ĐỂ ĐĂNG KÝ TRỰC TIẾP
+            </span>
+
+            <div class="qr-img">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSepAfBro_dd6fLU0Hj6dQpfPBSq8BkOecbS5xvoiyPW0TqbSw/viewform" target="_blank" rel="noopener noreferrer" title="Bấm để mở trực tiếp Google Form đăng ký">
+                <img src="assets/qr_code_v2.png?v=20261118" alt="Mã QR Google Form đăng ký khoá học Personal Branding Mastery" width="480" height="480">
+              </a>
+            </div>
+
+            <div style="font-size:22px;font-weight:900;color:var(--primary-dark);margin:14px 0 6px">
+              Học phí: 2.393.000đ <small style="font-size:14px;color:var(--text-muted);font-weight:600">/ học viên</small>
+            </div>
+
+            <p style="font-size:13px;color:var(--text-muted);line-height:1.55;max-width:440px;margin-bottom:16px">
+              Mở camera hoặc ứng dụng quét mã QR để quét mã bên trên, hoặc bấm nút dưới đây để điền form đăng ký chính thức của Ngáo Content.
+            </p>
+
+            <div style="width:100%;max-width:440px;background:#fff;border:1px solid #F3CFDC;border-radius:12px;padding:14px 18px;margin-bottom:20px;text-align:left;font-size:12.5px;color:var(--primary-dark);box-shadow:0 2px 8px rgba(112,26,57,0.04)">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+                <span>📍</span>
+                <strong>WORK X · 182 Điện Biên Phủ, Phường Xuân Hòa, TP.HCM</strong>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px">
+                <span>📅</span>
+                <span>Thứ Bảy, 12/12/2026 | 08:30 – 17:30</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px">
+                <span>💻</span>
+                <span style="color:var(--text-muted)">*Cần học viên mang theo Laptop và đầu tư tài khoản Claude Pro.</span>
+              </div>
+            </div>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSepAfBro_dd6fLU0Hj6dQpfPBSq8BkOecbS5xvoiyPW0TqbSw/viewform" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding:14px 32px;font-size:15px;font-weight:850;text-decoration:none;border-radius:12px;display:inline-flex;align-items:center;gap:8px;box-shadow:0 6px 20px rgba(200,32,97,0.28)">
+              <span>Mở Google Form Đăng Ký Trực Tiếp</span>
+              <span style="font-size:16px">↗</span>
+            </a>
+
+            <div style="margin-top:20px;padding-top:14px;border-top:1px dashed #E0B7C6;width:100%;max-width:440px;font-size:12px;color:var(--primary-dark)">
+              <strong>Hotline hỗ trợ:</strong> 090 987 6543 (Ngáo Content)
+            </div>
+          </div>
+        </div>
+
+        <div class="part-nav-footer">
+          <button type="button" class="btn-step-prev" onclick="goToPart('logistics')">← Phần 5: Địa điểm & Học phí</button>
+          <button type="button" class="btn-step-next" onclick="goToPart('ebook')">
+            <span>🔒 Mở Ebook Học Viên (Có PASS)</span>
+            <span>→</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHẦN 7: EBOOK HỌC VIÊN (CÓ MẬT KHẨU & BOT AI TƯƠNG TÁC) -->
+    <section class="part-section" id="part-ebook" role="tabpanel" aria-labelledby="tabBtn-ebook">
+      <div id="ebookMountRoot"></div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="assets/logo_ngao_content.png" alt="Ngáo Content Logo" style="height:36px;width:auto;object-fit:contain">
+        <span>© 2026 Ngáo Content · Personal Branding Mastery · WORK X, 182 Điện Biên Phủ, TP.HCM</span>
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="#ebook" onclick="goToPart('ebook')" style="color:var(--primary-dark);font-weight:800">🔒 Ebook Học Viên (Claude Web & Video)</a>
+        <a href="brand-discovery.html" style="color:var(--primary);font-weight:700">Khảo sát Brand Discovery (15 câu)</a>
+        <span>Hotline: 090 987 6543</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- REGISTRATION SUCCESS MODAL -->
+  <div class="modal-overlay" id="successModal">
+    <div class="modal-card">
+      <div style="width:52px;height:52px;background:#EAF6ED;color:#2F7A48;border-radius:50%;display:grid;place-items:center;font-size:26px;margin:0 auto 12px">✓</div>
+      <h3>Đăng Ký Thành Công!</h3>
+      <p id="modalMsg">
+        Cảm ơn bạn đã đăng ký tham gia <strong>Personal Branding Mastery (12/12/2026 tại WORK X)</strong>. Học phí: 2.393.000đ. Bộ phận tuyển sinh Ngáo Content đã ghi nhận và sẽ liên hệ xác nhận trong vòng 15 phút.
+      </p>
+      <div style="background:var(--bg-alt);padding:12px;border-radius:10px;margin-bottom:18px;font-size:12.5px;color:var(--primary-dark);text-align:left">
+        <strong>Khuyến nghị cho học viên:</strong><br>
+        1. Chuẩn bị Laptop và tài khoản Claude Pro trước khi đến lớp.<br>
+        2. Hoàn thành bài trắc nghiệm 15 câu để nhận Brand Guideline PDF 24 slide mang theo.
+      </div>
+      <div style="display:flex;gap:8px;justify-content:center">
+        <a href="brand-discovery.html" class="btn-primary" style="padding:9px 16px;font-size:12.5px">Làm bài test 15 câu</a>
+        <button type="button" class="btn-step-prev" onclick="closeModal()" style="padding:9px 16px;font-size:12.5px">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="ebook-engine.js?v=20261118_v2"></script>
+  <script>
+    // Part Navigation Controller
+    const PARTS = ['overview', 'curriculum', 'benefits', 'trainers', 'logistics', 'register', 'ebook'];
+    let currentPart = 'overview';
+    let isFullScroll = false;
+
+    function goToPart(partId) {
+      if (!PARTS.includes(partId)) partId = 'overview';
+      currentPart = partId;
+
+      // Update Part Tabs
+      document.querySelectorAll('.part-tab-btn').forEach(btn => {
+        const isActive = btn.id === 'tabBtn-' + partId;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+
+      // Update Part Sections
+      document.querySelectorAll('.part-section').forEach(sec => {
+        sec.classList.toggle('active', sec.id === 'part-' + partId);
+      });
+
+      // Sync Mascot Bot visibility (only on unlocked ebook tab or in full scroll)
+      const floater = document.getElementById('ngaoBotFloatingWidget');
+      if (floater) {
+        const isUnlocked = sessionStorage.getItem('NGAO_EBOOK_UNLOCKED_V1') === '1';
+        floater.style.display = (isUnlocked && (partId === 'ebook' || isFullScroll)) ? 'flex' : 'none';
+      }
+
+      // Scroll to content view smoothly
+      if (isFullScroll) {
+        const target = document.getElementById('part-' + partId);
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      try {
+        history.replaceState(null, '', '#' + partId);
+      } catch (e) {}
+    }
+
+    function toggleViewMode() {
+      isFullScroll = !isFullScroll;
+      document.body.classList.toggle('mode-full-scroll', isFullScroll);
+      const text = document.getElementById('viewModeText');
+      const icon = document.getElementById('viewModeIcon');
+      if (isFullScroll) {
+        text.textContent = 'Cuộn toàn trang';
+        icon.textContent = '📜';
+      } else {
+        text.textContent = 'Xem từng phần';
+        icon.textContent = '👁️';
+        goToPart(currentPart);
+      }
+    }
+
+    // Switch between 3 Pillar Tabs in Part 2
+    function switchPillar(num) {
+      document.querySelectorAll('.pillar-tab-card').forEach((card, idx) => {
+        card.classList.toggle('active', idx + 1 === num);
+      });
+      document.querySelectorAll('.p-detail-content').forEach((cnt, idx) => {
+        cnt.classList.toggle('active', idx + 1 === num);
+      });
+    }
+
+    // Live Countdown Timer to 12/12/2026 08:30:00 (GMT+7)
+    const targetDate = new Date('2026-12-12T08:30:00+07:00').getTime();
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+      if (diff <= 0) return;
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+      const dEl = document.getElementById('cdDays');
+      const hEl = document.getElementById('cdHours');
+      const mEl = document.getElementById('cdMins');
+      const sEl = document.getElementById('cdSecs');
+      if (dEl) dEl.textContent = String(days).padStart(2, '0');
+      if (hEl) hEl.textContent = String(hours).padStart(2, '0');
+      if (mEl) mEl.textContent = String(mins).padStart(2, '0');
+      if (sEl) sEl.textContent = String(secs).padStart(2, '0');
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+
+    // Form Submission
+    function handleRegister(e) {
+      e.preventDefault();
+      const name = document.getElementById('regName').value.trim();
+      const phone = document.getElementById('regPhone').value.trim();
+      if (!name || !phone) return;
+
+      const modalMsg = document.getElementById('modalMsg');
+      if (modalMsg) {
+        modalMsg.innerHTML = `Cảm ơn <strong>${name}</strong> (${phone})! Ngáo Content đã lưu giữ chỗ của bạn cho khoá học ngày <strong>12/12/2026 tại WORK X</strong> (Học phí: 2.393.000đ). Chúng tôi sẽ liên hệ trong thời gian sớm nhất.`;
+      }
+      document.getElementById('successModal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('successModal').classList.remove('active');
+      document.getElementById('regForm').reset();
+    }
+
+    // Init with hash if present
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = location.hash.replace('#', '');
+      if (PARTS.includes(hash)) {
+        goToPart(hash);
+      }
+    });
+  </script>
+</body>
+</html>

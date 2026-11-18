@@ -1,0 +1,969 @@
+{
+  "output_layout_contract": {
+    "id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "version": "5.0",
+    "layout": "B · Corporate Clean",
+    "renderer": "THIS_EXACT_OFFLINE_HTML_ONLY",
+    "renderer_signature": "FNV1A32:cc8a0eda",
+    "survey_signature_sha256": "e16bef25d142772b328087bc94cd0de21a1b2556eb8b0d6ad091948f788e58f4",
+    "page": {
+      "format": "16:9 landscape",
+      "size_in": "13.333333 x 7.5",
+      "width_px": 1280,
+      "height_px": 720,
+      "width_pt": 960,
+      "height_pt": 540,
+      "page_count": 24
+    },
+    "pages": [
+      {
+        "number": 1,
+        "slot": "cover",
+        "title": "Brand Guideline"
+      },
+      {
+        "number": 2,
+        "slot": "index",
+        "title": "Index"
+      },
+      {
+        "number": 3,
+        "slot": "about",
+        "title": "About Brand"
+      },
+      {
+        "number": 4,
+        "slot": "story",
+        "title": "Brand Story"
+      },
+      {
+        "number": 5,
+        "slot": "mission",
+        "title": "Mission · Vision · Values"
+      },
+      {
+        "number": 6,
+        "slot": "positioning",
+        "title": "Brand Positioning"
+      },
+      {
+        "number": 7,
+        "slot": "personality",
+        "title": "Personality & Voice"
+      },
+      {
+        "number": 8,
+        "slot": "divider_logo",
+        "title": "01 Logo System"
+      },
+      {
+        "number": 9,
+        "slot": "logo_primary",
+        "title": "Primary Logo"
+      },
+      {
+        "number": 10,
+        "slot": "logo_variants",
+        "title": "Logo Variations"
+      },
+      {
+        "number": 11,
+        "slot": "logo_safe",
+        "title": "Logo Clear Space"
+      },
+      {
+        "number": 12,
+        "slot": "logo_usage",
+        "title": "Logo On Background"
+      },
+      {
+        "number": 13,
+        "slot": "divider_color",
+        "title": "02 Color System"
+      },
+      {
+        "number": 14,
+        "slot": "palette",
+        "title": "Brand Color Palette"
+      },
+      {
+        "number": 15,
+        "slot": "ratio",
+        "title": "Color Usage"
+      },
+      {
+        "number": 16,
+        "slot": "combos",
+        "title": "Color Combinations"
+      },
+      {
+        "number": 17,
+        "slot": "divider_type",
+        "title": "03 Typography"
+      },
+      {
+        "number": 18,
+        "slot": "typeface",
+        "title": "Brand Fonts"
+      },
+      {
+        "number": 19,
+        "slot": "hierarchy",
+        "title": "Typography Scale"
+      },
+      {
+        "number": 20,
+        "slot": "divider_app",
+        "title": "04 Visual & Application"
+      },
+      {
+        "number": 21,
+        "slot": "art_direction",
+        "title": "Visual Direction"
+      },
+      {
+        "number": 22,
+        "slot": "applications",
+        "title": "Brand Applications"
+      },
+      {
+        "number": 23,
+        "slot": "digital",
+        "title": "Digital Applications"
+      },
+      {
+        "number": 24,
+        "slot": "closing",
+        "title": "Thank You"
+      }
+    ],
+    "locked": [
+      "page count",
+      "page ordering",
+      "chapter divider positions",
+      "slide size",
+      "frame positions",
+      "image crop windows",
+      "spacing and safe zones",
+      "headline/label locations",
+      "logo/HEX/font sample blocks",
+      "footer placement"
+    ],
+    "per_student": [
+      "verified brand name",
+      "answer content",
+      "logo original if uploaded",
+      "HEX values",
+      "photo assets",
+      "font names and permitted identity traits"
+    ],
+    "text_overflow": "Auto-limit rendered text to fixed slots; keep source details in JSON and Markdown; do not reflow or add slides.",
+    "export": "Print/Save as PDF from THIS HTML, in Chrome/Edge, scale 100%, margins none, background graphics on, headers/footers off.",
+    "not_guaranteed": "A standalone JSON or separate AI chat cannot guarantee exact page geometry without this renderer.",
+    "layout_css_version": "V5-DISCRETE_GEOMETRY_CSS-SHA256:c3370651f792fed4"
+  },
+  "layout_output_protocol": {
+    "standard_id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "required_renderer": "index.html",
+    "required_version": "5.0",
+    "output": [
+      "Brand_Guideline.pdf",
+      "Brand_Guideline.md"
+    ],
+    "procedure": "AI returns structured CONTENT ONLY. Import AI content back into this HTML, then use browser print; do not generate an independently arranged PDF.",
+    "when_renderer_unavailable": "Report inability to guarantee pixel-identical PDF; do not claim layout lock achieved.",
+    "data_source": "Exact 15 questionnaire answers, optional student fields, uploaded original assets, user-approved HEX."
+  },
+  "schema_version": "NGAO-Brand-Discovery-2026-11-rebuilt",
+  "language": "vi-VN",
+  "is_demo": false,
+  "origin": "Offline 15-question Brand Discovery HTML",
+  "brand": {
+    "name": "Mây Ngàn",
+    "industry": "Trà & Thảo mộc truyền thống",
+    "tagline": "Hương vị ngàn xưa, tĩnh tại tâm hồn",
+    "verified_status": "Học viên tự khai; chưa kiểm chứng độc lập"
+  },
+  "answers": [
+    {
+      "id": "type",
+      "order": 1,
+      "question": "Bạn đang xây thương hiệu cho ai hoặc cho điều gì?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Cá nhân",
+        "hint": "Tên tuổi và chuyên môn của mình",
+        "art": "person"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "goal",
+      "order": 2,
+      "question": "Trong 1 năm tới, bạn muốn thương hiệu giúp mình điều gì nhất?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Được biết đến",
+        "hint": "Nhiều người nhận ra thương hiệu",
+        "art": "megaphone"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "audience",
+      "order": 3,
+      "question": "Bạn muốn ai là người nhớ đến và lựa chọn thương hiệu?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Cá nhân",
+        "hint": "Người tiêu dùng, người học...",
+        "art": "person"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "value",
+      "order": 4,
+      "question": "Người ta tìm đến bạn chủ yếu để nhận điều gì?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Kiến thức",
+        "hint": "Hiểu thêm, học thêm kỹ năng",
+        "art": "book"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "difference",
+      "order": 5,
+      "question": "Điều gì khiến bạn khác với những lựa chọn còn lại?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Chuyên môn",
+        "hint": "Năng lực hoặc phương pháp riêng",
+        "art": "award"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "dna",
+      "order": 6,
+      "question": "Điều gì là “cái gốc” của thương hiệu?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Hành trình",
+        "hint": "Trải nghiệm hình thành thương hiệu",
+        "art": "route"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "personality",
+      "order": 7,
+      "question": "Nếu thương hiệu là một người, người ấy có tính cách nào?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Chỉn chu",
+        "hint": "Chuyên nghiệp, đáng tin",
+        "art": "tie"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "tone",
+      "order": 8,
+      "question": "Bạn muốn thương hiệu nói chuyện theo cách nào?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Rõ ràng",
+        "hint": "Đơn giản, có ví dụ cụ thể",
+        "art": "list"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "content",
+      "order": 9,
+      "question": "Bạn muốn mọi người nhớ đến mình qua nội dung nào?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Kiến thức",
+        "hint": "Hướng dẫn, giải thích, mẹo",
+        "art": "book"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "action",
+      "order": 10,
+      "question": "Sau khi thấy thương hiệu, bạn muốn người xem làm gì?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Theo dõi",
+        "hint": "Tiếp tục xem nội dung",
+        "art": "social"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "logo",
+      "order": 11,
+      "question": "Hiện tại bạn có logo đến mức nào?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Có file gốc",
+        "hint": "SVG, PNG, file thiết kế...",
+        "art": "logo"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "colors",
+      "order": 12,
+      "question": "Bảng màu thương hiệu của bạn đã có đến đâu?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Đã có HEX",
+        "hint": "Muốn giữ bảng màu hiện tại",
+        "art": "palette_existing"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "fonts",
+      "order": 13,
+      "question": "Kiểu chữ nào làm bạn thấy hợp thương hiệu nhất?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Có chân – Serif",
+        "hint": "Dáng chữ biên tập, cổ điển",
+        "art": "serif"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "visual",
+      "order": 14,
+      "question": "Bạn muốn bài đăng và tài liệu trông như thế nào?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Ảnh thật",
+        "hint": "Người, sản phẩm, đời sống",
+        "art": "photo"
+      },
+      "custom_text": null,
+      "detail": null
+    },
+    {
+      "id": "touchpoints",
+      "order": 15,
+      "question": "Bạn muốn dùng bộ nhận diện vào đâu trước tiên?",
+      "answer_status": "SELECTED",
+      "selected_option": {
+        "code": "A",
+        "title": "Mạng xã hội",
+        "hint": "Bài đăng, video, avatar",
+        "art": "social"
+      },
+      "custom_text": null,
+      "detail": null
+    }
+  ],
+  "additional_fields": {
+    "brand_name": "Mây Ngàn",
+    "industry": "Trà & Thảo mộc truyền thống",
+    "tagline": "Hương vị ngàn xưa, tĩnh tại tâm hồn"
+  },
+  "visual_assets": {
+    "logo": {
+      "uploaded_this_session": false,
+      "original_file_metadata": null,
+      "reattach_in_new_chat": false
+    },
+    "other_assets": null
+  },
+  "visual_preferences": {
+    "color_hex": {
+      "primary": "#1B4D3E",
+      "secondary": "#C2A649",
+      "accent": "#E87A5D",
+      "background": "#F8F5EE"
+    },
+    "invalid_hex_fields": [],
+    "logo_structure": null,
+    "logo_placement": null,
+    "layout_style": null,
+    "font_heading": null,
+    "font_body": null
+  },
+  "completion": {
+    "answered": 15,
+    "total": 15,
+    "unanswered": [],
+    "ai_suggestions_needed": []
+  },
+  "instructions_for_chatgpt": {
+    "role": "Senior Brand Strategist + Art Director + Document Designer",
+    "task": "Write accurate Brand Guideline CONTENT based on 15 answers. Return structured content JSON for import into the provided HTML. Layout is fixed; NEVER redesign or generate a free-form PDF when identical layout is required.",
+    "outputs": [
+      "PDF 24 trang 16:9 theo B · Corporate Clean với tất cả khung cố định.",
+      "Markdown lưu đầy đủ nội dung 15 câu và trạng thái đề xuất."
+    ],
+    "required_content": [
+      "Brand DNA, mục tiêu, khách hàng, insight và định vị",
+      "Điểm khác biệt có bằng chứng hay ghi rõ cần xác minh",
+      "Brand personality, tone of voice, key messages, content pillars",
+      "Color roles, khối màu có HEX chính xác và kiểm tra dễ đọc",
+      "Logo gốc: nếu có file đính kèm thì dùng đúng; nếu chưa có thì chỉ mô tả concept CHƯA DUYỆT",
+      "Minh họa logo dạng chữ/biểu tượng/kết hợp/monogram và vị trí trên trái, trên phải, dưới trái, dưới phải, vị trí linh hoạt",
+      "Serif vs Sans, phân cấp font tiêu đề/nội dung/chú thích, hỗ trợ tiếng Việt",
+      "Bố cục, khoảng trắng, hình ảnh và ứng dụng trong các điểm chạm được chọn"
+    ],
+    "non_negotiable": [
+      "Phân biệt dữ liệu học viên tự khai, giả thuyết và đề xuất AI.",
+      "Các câu AI_SUGGEST phải đưa ra 2–3 phương án có lập luận, đánh dấu DRAFT, không tự coi đã duyệt.",
+      "Không bịa dữ liệu khách hàng, kết quả, case, chứng nhận, xuất xứ hay logo.",
+      "Không đổi HEX/font/logo gốc học viên đã xác nhận.",
+      "Nếu JSON nhắc tới file logo, học viên phải đính kèm lại file gốc trong chat mới; JSON không chứa bytes ảnh.",
+      "Nếu môi trường không hỗ trợ xuất tệp, nêu giới hạn thật và cung cấp nội dung thay thế.",
+      "Không thay mã HEX, không tự vẽ lại logo gốc, không biến logo concept thành logo chính thức.",
+      "Nếu chỉ có JSON nhưng không có renderer thì phải thông báo giới hạn trước khi tạo PDF."
+    ],
+    "layout_lock_requirement": "Chỉ dùng đúng layout B · Corporate Clean (NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4) qua HTML V5. AI không được thay kích thước, tọa độ hoặc 24 trang.",
+    "delivery": "Trả JSON nội dung NGAO_B_CONTENT_V1 với template_id=NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4; nhập trở lại HTML V5 để in PDF. Không tự dàn trang PDF.",
+    "required_renderer_file": "index.html",
+    "layout_lock": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "content_enrichment": "Nếu người học cần AI triển khai chuyên sâu, trả lại JSON theo ai_content_return_contract để dán ngược vào HTML. KHÔNG tạo PDF tự dàn trang nếu yêu cầu giữ layout chính xác.",
+    "truthfulness": "Chỉ 15 câu trả lời là nguồn dữ liệu; AI_SUGGEST / thông tin thiếu là đề xuất chưa duyệt, không biến thành sự thật.",
+    "rule": "AI chỉ trả nội dung theo key; không tự bố trí PDF. Xuất PDF bắt buộc qua HTML cùng phiên bản renderer để đảm bảo khung vị trí giống nhau."
+  },
+  "ai_content_return_contract": {
+    "format": "NGAO_B_CONTENT_V1",
+    "template_id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "how_to_return": "Trả JSON NGAO_B_CONTENT_V1 chỉ gồm nội dung, template_id=NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4; học viên nhập vào HTML V5 để in PDF. Không tự dàn lại layout.",
+    "fields": [
+      "detail_goal",
+      "detail_audience",
+      "detail_value",
+      "detail_difference",
+      "detail_dna",
+      "detail_personality",
+      "detail_tone",
+      "detail_content",
+      "detail_action",
+      "logo_rules",
+      "color_rules",
+      "assets_priority"
+    ],
+    "example": {
+      "format": "NGAO_B_CONTENT_V1",
+      "template_id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+      "fields": {
+        "detail_goal": "Nội dung định hướng, đánh dấu DRAFT"
+      }
+    },
+    "expected_visual_template": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4"
+  },
+  "template_contract": {
+    "id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "version": "5.0",
+    "renderer_signature": "FNV1A32:cc8a0eda",
+    "renderer_policy": "HTML_FIXED_SLOT_ONLY",
+    "fixed_pages": 24,
+    "viewport": {
+      "width_px": 1280,
+      "height_px": 720,
+      "pdf_width_pt": 960,
+      "pdf_height_pt": 540,
+      "aspect_ratio": "16:9",
+      "page_count": 24
+    },
+    "slot_order": [
+      {
+        "number": 1,
+        "slot": "cover",
+        "title": "Brand Guideline"
+      },
+      {
+        "number": 2,
+        "slot": "index",
+        "title": "Index"
+      },
+      {
+        "number": 3,
+        "slot": "about",
+        "title": "About Brand"
+      },
+      {
+        "number": 4,
+        "slot": "story",
+        "title": "Brand Story"
+      },
+      {
+        "number": 5,
+        "slot": "mission",
+        "title": "Mission · Vision · Values"
+      },
+      {
+        "number": 6,
+        "slot": "positioning",
+        "title": "Brand Positioning"
+      },
+      {
+        "number": 7,
+        "slot": "personality",
+        "title": "Personality & Voice"
+      },
+      {
+        "number": 8,
+        "slot": "divider_logo",
+        "title": "01 Logo System"
+      },
+      {
+        "number": 9,
+        "slot": "logo_primary",
+        "title": "Primary Logo"
+      },
+      {
+        "number": 10,
+        "slot": "logo_variants",
+        "title": "Logo Variations"
+      },
+      {
+        "number": 11,
+        "slot": "logo_safe",
+        "title": "Logo Clear Space"
+      },
+      {
+        "number": 12,
+        "slot": "logo_usage",
+        "title": "Logo On Background"
+      },
+      {
+        "number": 13,
+        "slot": "divider_color",
+        "title": "02 Color System"
+      },
+      {
+        "number": 14,
+        "slot": "palette",
+        "title": "Brand Color Palette"
+      },
+      {
+        "number": 15,
+        "slot": "ratio",
+        "title": "Color Usage"
+      },
+      {
+        "number": 16,
+        "slot": "combos",
+        "title": "Color Combinations"
+      },
+      {
+        "number": 17,
+        "slot": "divider_type",
+        "title": "03 Typography"
+      },
+      {
+        "number": 18,
+        "slot": "typeface",
+        "title": "Brand Fonts"
+      },
+      {
+        "number": 19,
+        "slot": "hierarchy",
+        "title": "Typography Scale"
+      },
+      {
+        "number": 20,
+        "slot": "divider_app",
+        "title": "04 Visual & Application"
+      },
+      {
+        "number": 21,
+        "slot": "art_direction",
+        "title": "Visual Direction"
+      },
+      {
+        "number": 22,
+        "slot": "applications",
+        "title": "Brand Applications"
+      },
+      {
+        "number": 23,
+        "slot": "digital",
+        "title": "Digital Applications"
+      },
+      {
+        "number": 24,
+        "slot": "closing",
+        "title": "Thank You"
+      }
+    ],
+    "allow_custom_coordinates": false,
+    "allow_ai_page_design": false,
+    "layout_variant": "corporate"
+  },
+  "photos_metadata": [],
+  "layout_choice": {
+    "key": "corporate",
+    "title": "B · Corporate Clean",
+    "template_id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4",
+    "selected_by_student": true
+  },
+  "data_classification": {
+    "1_student_confirmed": {
+      "title": "Thông tin học viên xác nhận",
+      "brand_name": "Mây Ngàn",
+      "industry": "Trà & Thảo mộc truyền thống",
+      "tagline": "Hương vị ngàn xưa, tĩnh tại tâm hồn",
+      "answered_questions": [
+        {
+          "id": "type",
+          "order": 1,
+          "question": "Bạn đang xây thương hiệu cho ai hoặc cho điều gì?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Cá nhân",
+            "hint": "Tên tuổi và chuyên môn của mình",
+            "art": "person"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "goal",
+          "order": 2,
+          "question": "Trong 1 năm tới, bạn muốn thương hiệu giúp mình điều gì nhất?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Được biết đến",
+            "hint": "Nhiều người nhận ra thương hiệu",
+            "art": "megaphone"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "audience",
+          "order": 3,
+          "question": "Bạn muốn ai là người nhớ đến và lựa chọn thương hiệu?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Cá nhân",
+            "hint": "Người tiêu dùng, người học...",
+            "art": "person"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "value",
+          "order": 4,
+          "question": "Người ta tìm đến bạn chủ yếu để nhận điều gì?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Kiến thức",
+            "hint": "Hiểu thêm, học thêm kỹ năng",
+            "art": "book"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "difference",
+          "order": 5,
+          "question": "Điều gì khiến bạn khác với những lựa chọn còn lại?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Chuyên môn",
+            "hint": "Năng lực hoặc phương pháp riêng",
+            "art": "award"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "dna",
+          "order": 6,
+          "question": "Điều gì là “cái gốc” của thương hiệu?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Hành trình",
+            "hint": "Trải nghiệm hình thành thương hiệu",
+            "art": "route"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "personality",
+          "order": 7,
+          "question": "Nếu thương hiệu là một người, người ấy có tính cách nào?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Chỉn chu",
+            "hint": "Chuyên nghiệp, đáng tin",
+            "art": "tie"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "tone",
+          "order": 8,
+          "question": "Bạn muốn thương hiệu nói chuyện theo cách nào?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Rõ ràng",
+            "hint": "Đơn giản, có ví dụ cụ thể",
+            "art": "list"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "content",
+          "order": 9,
+          "question": "Bạn muốn mọi người nhớ đến mình qua nội dung nào?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Kiến thức",
+            "hint": "Hướng dẫn, giải thích, mẹo",
+            "art": "book"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "action",
+          "order": 10,
+          "question": "Sau khi thấy thương hiệu, bạn muốn người xem làm gì?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Theo dõi",
+            "hint": "Tiếp tục xem nội dung",
+            "art": "social"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "logo",
+          "order": 11,
+          "question": "Hiện tại bạn có logo đến mức nào?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Có file gốc",
+            "hint": "SVG, PNG, file thiết kế...",
+            "art": "logo"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "colors",
+          "order": 12,
+          "question": "Bảng màu thương hiệu của bạn đã có đến đâu?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Đã có HEX",
+            "hint": "Muốn giữ bảng màu hiện tại",
+            "art": "palette_existing"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "fonts",
+          "order": 13,
+          "question": "Kiểu chữ nào làm bạn thấy hợp thương hiệu nhất?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Có chân – Serif",
+            "hint": "Dáng chữ biên tập, cổ điển",
+            "art": "serif"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "visual",
+          "order": 14,
+          "question": "Bạn muốn bài đăng và tài liệu trông như thế nào?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Ảnh thật",
+            "hint": "Người, sản phẩm, đời sống",
+            "art": "photo"
+          },
+          "custom_text": null,
+          "detail": null
+        },
+        {
+          "id": "touchpoints",
+          "order": 15,
+          "question": "Bạn muốn dùng bộ nhận diện vào đâu trước tiên?",
+          "answer_status": "SELECTED",
+          "selected_option": {
+            "code": "A",
+            "title": "Mạng xã hội",
+            "hint": "Bài đăng, video, avatar",
+            "art": "social"
+          },
+          "custom_text": null,
+          "detail": null
+        }
+      ],
+      "confirmed_hex_palette": {
+        "primary": "#1B4D3E",
+        "secondary": "#C2A649",
+        "accent": "#E87A5D",
+        "background": "#F8F5EE"
+      },
+      "uploaded_assets": {}
+    },
+    "2_brand_preferences": {
+      "title": "Lựa chọn và sở thích thương hiệu",
+      "selected_options": [
+        {
+          "id": "type",
+          "question": "Bạn đang xây thương hiệu cho ai hoặc cho điều gì?",
+          "selected": null
+        },
+        {
+          "id": "goal",
+          "question": "Trong 1 năm tới, bạn muốn thương hiệu giúp mình điều gì nhất?",
+          "selected": null
+        },
+        {
+          "id": "audience",
+          "question": "Bạn muốn ai là người nhớ đến và lựa chọn thương hiệu?",
+          "selected": null
+        },
+        {
+          "id": "value",
+          "question": "Người ta tìm đến bạn chủ yếu để nhận điều gì?",
+          "selected": null
+        },
+        {
+          "id": "difference",
+          "question": "Điều gì khiến bạn khác với những lựa chọn còn lại?",
+          "selected": null
+        },
+        {
+          "id": "dna",
+          "question": "Điều gì là “cái gốc” của thương hiệu?",
+          "selected": null
+        },
+        {
+          "id": "personality",
+          "question": "Nếu thương hiệu là một người, người ấy có tính cách nào?",
+          "selected": null
+        },
+        {
+          "id": "tone",
+          "question": "Bạn muốn thương hiệu nói chuyện theo cách nào?",
+          "selected": null
+        },
+        {
+          "id": "content",
+          "question": "Bạn muốn mọi người nhớ đến mình qua nội dung nào?",
+          "selected": null
+        },
+        {
+          "id": "action",
+          "question": "Sau khi thấy thương hiệu, bạn muốn người xem làm gì?",
+          "selected": null
+        },
+        {
+          "id": "logo",
+          "question": "Hiện tại bạn có logo đến mức nào?",
+          "selected": null
+        },
+        {
+          "id": "colors",
+          "question": "Bảng màu thương hiệu của bạn đã có đến đâu?",
+          "selected": null
+        },
+        {
+          "id": "fonts",
+          "question": "Kiểu chữ nào làm bạn thấy hợp thương hiệu nhất?",
+          "selected": null
+        },
+        {
+          "id": "visual",
+          "question": "Bạn muốn bài đăng và tài liệu trông như thế nào?",
+          "selected": null
+        },
+        {
+          "id": "touchpoints",
+          "question": "Bạn muốn dùng bộ nhận diện vào đâu trước tiên?",
+          "selected": null
+        }
+      ],
+      "font_preferences": {
+        "heading": null,
+        "body": null
+      },
+      "layout_preset_choice": {
+        "key": "corporate",
+        "name": "B · Corporate Clean",
+        "template_id": "NGAO_CORPORATE_CLEAN_B_24SLIDE_LOCK_V4"
+      }
+    },
+    "3_ai_suggested_content": {
+      "title": "Nội dung nhờ AI đề xuất",
+      "ai_requested_questions": [],
+      "imported_ai_fields": null
+    },
+    "4_unverified_or_missing": {
+      "title": "Nội dung còn thiếu hoặc chưa được xác minh",
+      "unanswered_questions": [],
+      "invalid_hex_colors": [],
+      "missing_brand_name": false,
+      "missing_logo": true
+    }
+  }
+}
